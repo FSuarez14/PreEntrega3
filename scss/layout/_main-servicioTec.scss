@@ -1,0 +1,23 @@
+.service-container {
+    color: #3044a5;
+    padding: 40px;
+    margin-left: 15;
+}
+
+.long-desc {
+    li {
+        list-style: none;
+    }
+
+}
+
+.info-container {
+    font-size: 17px;
+}
+
+.short-desc,
+.long-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

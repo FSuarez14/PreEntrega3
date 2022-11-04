@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+    /*= Responsive main */
+
+    .category-item {
+        min-width: 50%;
+    }
+
+    .featured-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*= Responsive FOOTER */
+    footer {
+        padding: 40px;
+        .container__footer {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .copyright {
+        padding: 9px 40px;
+    }
+}

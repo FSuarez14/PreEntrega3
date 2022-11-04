@@ -1,0 +1,22 @@
+@media (max-width: 762px) {
+    /*= Responsive main */
+
+    .category-item {
+        min-width: 100%;
+    }
+
+    .featured-products {
+        grid-template-columns: 1fr;
+    }
+
+    /*= Responsive FOOTER */
+    footer {
+        .container__footer {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}

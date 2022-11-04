@@ -1,0 +1,41 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    background: #3044a5;
+}
+
+/*  configuracion logo */
+.logo {
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+}
+
+/* estilo del nav bar general. */
+.navBar {
+    display: flex;
+    height: 100%;
+    list-style: none;
+
+    a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    a:hover {
+        color: goldenrod;
+        transform: scale(1.1);
+        background: #1f3389;
+    }
+}

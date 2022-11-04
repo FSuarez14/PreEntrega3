@@ -1,0 +1,38 @@
+@media (max-width: 516px) {
+    /*= Responsive HEADER */
+    .header__container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .logo {
+        img {
+            width: 150px;
+            height: 150px;
+            margin-left: 125px;
+        }
+
+    }
+
+    .navBar {
+        a {
+            text-align: center;
+            padding-left: 15px;
+            font-size: 13px;
+            font-weight: 500px;
+        }
+    }
+
+    /* estilo responsive contacto */
+    .campo-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* estilo responsive garantia */
+    .text-garantia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
