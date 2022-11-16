@@ -41,7 +41,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-gap: 10px;
+    padding-bottom: 15px;
 }
 
 .featured-products-title {
@@ -54,6 +55,11 @@
     text-align: center;
     box-sizing: border-box;
     border: 1px solid #ddd;
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .featured-item-image {
@@ -64,15 +70,17 @@
 
 .featured-products-item> {
     .titulo {
+        color: #3044a5;
         font-size: 20px;
         font-weight: bold;
     }
 
     .descripcion {
-        color: #666;
+        color: #3044a5;
     }
 
     .precio {
+        color: #3044a5;
         font-style: italic;
     }
 }

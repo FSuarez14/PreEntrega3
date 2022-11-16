@@ -2,21 +2,26 @@
     /*= Responsive HEADER */
     .header__container {
         flex-direction: column;
-        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .logo {
         img {
             width: 150px;
             height: 150px;
-            margin-left: 125px;
+            display: block;
+            margin: auto;
         }
-
     }
 
     .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         a {
-            text-align: center;
+            // flex-direction: column;
+            // text-align: center;
             padding-left: 15px;
             font-size: 13px;
             font-weight: 500px;

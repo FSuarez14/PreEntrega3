@@ -106,7 +106,8 @@ button {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
+  grid-gap: 10px;
+  padding-bottom: 15px;
 }
 
 .featured-products-title {
@@ -120,6 +121,10 @@ button {
   box-sizing: border-box;
   border: 1px solid #ddd;
 }
+.featured-products-item a {
+  text-decoration: none;
+  color: white;
+}
 
 .featured-item-image {
   height: 200px;
@@ -128,13 +133,15 @@ button {
 }
 
 .featured-products-item > .titulo {
+  color: #3044a5;
   font-size: 20px;
   font-weight: bold;
 }
 .featured-products-item > .descripcion {
-  color: #666;
+  color: #3044a5;
 }
 .featured-products-item > .precio {
+  color: #3044a5;
   font-style: italic;
 }
 
@@ -222,7 +229,7 @@ footer .container__footer {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 80px;
 }
 footer .container__footer .sec h2 {
   position: relative;
@@ -355,15 +362,20 @@ footer .container__footer .sec p {
   /*= Responsive HEADER */
   .header__container {
     flex-direction: column;
-    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .logo img {
     width: 150px;
     height: 150px;
-    margin-left: 125px;
+    display: block;
+    margin: auto;
+  }
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .navBar a {
-    text-align: center;
     padding-left: 15px;
     font-size: 13px;
     font-weight: 500px;
